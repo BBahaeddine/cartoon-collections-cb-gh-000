@@ -1,6 +1,7 @@
 def roll_call_dwarves(array)
-  arrya.each{ |name|
-    puts name
+  arrya.each_with_index{ |name, index|
+  position = index + 1 
+    puts "#{position} #{name}"
   }
 end
 
