@@ -11,7 +11,8 @@ def summon_captain_planet(array)
   }
 end
 
-def long_planeteer_calls
+def long_planeteer_calls(calls)
+  
 end
 
 def find_the_cheese
