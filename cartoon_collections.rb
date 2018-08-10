@@ -7,7 +7,7 @@ end
 
 def summon_captain_planet(array)
   arrya.map!{ |name|
-    name.capitalize
+    name.capitalize + "!"
   }
 end
 
